@@ -2,20 +2,14 @@ import iziToast from "izitoast";
 
 import "izitoast/dist/css/iziToast.min.css";
 
-import SimpleLightbox from "simplelightbox";
 
-import "simplelightbox/dist/simple-lightbox.min.css";
 
 import { clearGallery, renderImages, showLoader, hideLoader } from './js/render-functions';
 
 import { fetchImages } from './js/pixabay-api';
 
-const list = document.querySelector('.list');
-
-const API_KEY = '43277181-ebb9172f58fa43bc64ca23581';
 const form = document.querySelector('.search-form');
 const searchInput = document.querySelector('.search-input');
-const submitButton = document.querySelector('.submit-button');
 
 form.addEventListener('submit', handleSubmit);
     
