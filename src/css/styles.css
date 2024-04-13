@@ -83,8 +83,7 @@
   border: 2px solid #FF3D00;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
-  display: none;
-
+  display: none
 }
 
 .loader::after {
